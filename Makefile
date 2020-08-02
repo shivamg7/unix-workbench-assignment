@@ -1,5 +1,5 @@
 DATE_ := $(shell eval date)
-LINES_ := $(shell eval wc -l guessinggame.sh)
+LINES_ := $(shell eval wc -l < guessinggame.sh)
 
 readme: guessinggame.sh
 	echo "How many files? xP " > README
